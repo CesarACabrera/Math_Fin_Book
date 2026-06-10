@@ -1,0 +1,19 @@
+# --- Carpetas de compilación de Jupyter Book / MyST ---
+_build/
+.myst/
+.html/
+
+# --- Archivos temporales de Python y Jupyter ---
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+
+# --- Archivos del Sistema Operativo ---
+.DS_Store
+Thumbs.db

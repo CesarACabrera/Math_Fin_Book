@@ -1,0 +1,18 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project: Mathematical Financial Book
+  # id: ed27b6bb-e2f4-42e3-96d3-0a1ad15b2209
+  # title: Mathematical Financial Book
+  # description: A book about mathematical finance with python code.
+  # keywords: [Python, Finance, Mathematical Finance, Quantitative Finance]
+  # authors: [César Andrés Cabrera Cabero]
+  # github: https://github.com/CesarACabrera/Bank_run_app
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
+toc:
+- file: intro.md
+- file: interest_rates.md
